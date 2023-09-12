@@ -94,7 +94,7 @@ valorTotal = icms+valorCompra;
     //valorTotal = valorCompra + icms;
     icms = (valorCompra / 0.83)-valorCompra;
 valorTotal =  icms+valorCompra;
-    console.log('valorCompra='+valorCompra+' ipi='+ipi+' icms='+icms+' valorTotal='+valorTotal);
+    console.log('valorCompra='+valorCompra+' ipi='+ipi+' icms='+icms+' valorTotal='+valorTotal); 
   }
 
   resultadoElement.textContent = `O valor total da compra é de R$ ${valorTotal.toFixed(2)}.`;
